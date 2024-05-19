@@ -1,4 +1,4 @@
-from user import User,Student,faculty
+from user import User,Student
 
 
 #user1 = User("Pavi", "abc123")
@@ -10,11 +10,17 @@ from user import User,Student,faculty
 #print(User.users)
 #print(user3.login())
 
-stud1 = Student()
-stud1.greet_Student()
-fac1 = faculty()
-fac1.register()
-fac1.greet_faculty()
+#stud1 = Student()
+#stud1.greet_Student()
+#fac1 = faculty()
+#fac1.register()
+#fac1.greet_faculty()
+
+#methodoverchaining
+user1 = User("raja",237)
+
+stud1 = Student("raajaa",123,"cse",2345)
+stud1.greet()
 
 
 
